@@ -41,9 +41,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
 
      - Openweathermap - https://openweathermap.org/current/
 
-     - GitHub - https://github.com/
-
-     - Git - https://git-scm.com/
+     - GitHub - https://git-scm.com/
 
 
  - #### **1.4 - Linguagem de Programação**
