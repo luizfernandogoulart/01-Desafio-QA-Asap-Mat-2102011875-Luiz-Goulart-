@@ -72,7 +72,8 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
  - #### **2.1 - Links úteis**
 
     - Github Pessoal - https://github.com/luizfernandogoulart/Treinamento-Final-ASAP.git/
-    - Github Desafio ASAP - https://github.com/qa-via-code-challenge/desafio-asaplog/
+    - Github Desafio ASAP - https://github.com/luizfernandogoulart/01-Desafio-QA-Asap-Mat-2102011875-Luiz-Goulart-.git
+    - Backup do Projeto - https://viavarejo-my.sharepoint.com/:f:/g/personal/luiz_goulart_viavarejo_com_br/EvUo2yNBGRhAvLjo_08ZcIYBI3LLNBMtH21lmP5mA4isLA?e=fVsdPd
 
 
 
