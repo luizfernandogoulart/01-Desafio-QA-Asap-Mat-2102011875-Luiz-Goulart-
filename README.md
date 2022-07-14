@@ -36,15 +36,14 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
     - Postman - https://www.postman.com/ - versão 9.21.0
 
     - Typora - https://typora.io/ - versão 1.3
-    - 
-
+    
 
  - #### **1.3 - Sites de Apoio e Teste**
 
      - Openweathermap - https://openweathermap.org/current/
 
      - GitHub - https://git-scm.com/
-     - 
+      
 
 
  - #### **1.4 - Linguagem de Programação**
