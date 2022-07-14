@@ -13,7 +13,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
 * Foram utilizadas as boas práticas aprendidas e com padrões simplórios de aprendizado; 
 * A Estrutura de pastas foi respeitada e o código foi versionado;  
 * Em virtude da baixa expertise, o código foi desenvolvido de forma simples e sem complexidade técnica.
-* Em relação ao teste e2e foram disponibilizados vídeos da produção dos testes no Framework Cypress. O nome do vídeo corresonde ao teste.
+* Em relação ao teste e2e, foram produzidos vídeos do Framework produzindo os testes. O nome do vídeo corresonde ao teste.
 * A melhora forma de análise do teste da API é a aonculta da Colect de testes que pode ser baixa na em própria. 
 
 
