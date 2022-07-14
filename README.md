@@ -21,8 +21,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
 
  - #### **1.1 - Equipamento**
 
-    - Notebook Dell - Core i5 2021 - com **16**GB RAM e **250**GB de Armazenamento
-    - 
+    - Notebook Dell - Core i5 2021 - com **16**GB RAM e **250**GB de Armazenamento 
 
 
  - #### **1.2 - Software**
