@@ -1,0 +1,381 @@
+{
+	"info": {
+		"_postman_id": "ff128420-3ab8-4b13-89c5-997507861138",
+		"name": "Test API Tempo - 6.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20567286"
+	},
+	"item": [
+		{
+			"name": "1 - Teste API - RJ",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const resposta = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Status do Código de Retorno é 200?\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura Mínima e Máxima?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_min\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_max\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Humidade e Pressão Atmosférica?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"humidity\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"pressure\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"O estado correto é Rio de Janeiro?\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Rio de Janeiro\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"E o Céu? Está limpo?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"céu limpo\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "q",
+						"value": "Rio de Janeiro",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Rio de Janeiro&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "units",
+							"value": "metric"
+						},
+						{
+							"key": "q",
+							"value": "Rio de Janeiro"
+						},
+						{
+							"key": "appid",
+							"value": "ed5dd873dea3918abd2ad3caed066a1b"
+						},
+						{
+							"key": "lang",
+							"value": "pt_br"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 - Teste API - SP",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const resposta = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Status do Código de Retorno é 200?\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura Mínima e Máxima?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_min\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_max\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Humidade e Pressão Atmosférica?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"humidity\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"pressure\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"O estado correto é São Paulo?\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"São Paulo\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"E o Céu? Está limpo?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"céu limpo\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=São Paulo&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "São Paulo"
+						},
+						{
+							"key": "appid",
+							"value": "ed5dd873dea3918abd2ad3caed066a1b"
+						},
+						{
+							"key": "lang",
+							"value": "pt_br"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 - Teste API - MG",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const resposta = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Status do Código de Retorno é 200?\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura Mínima e Máxima?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_min\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_max\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Humidade e Pressão Atmosférica?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"humidity\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"pressure\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"O estado correto é São Paulo?\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Minas Gerais\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"E o Céu? Está limpo?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"céu limpo\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Minas Gerais&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Minas Gerais"
+						},
+						{
+							"key": "appid",
+							"value": "ed5dd873dea3918abd2ad3caed066a1b"
+						},
+						{
+							"key": "lang",
+							"value": "pt_br"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 - Teste API - Santo Andre - SP",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const resposta = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Status do Código de Retorno é 200?\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp\");\r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Temperatura Mínima e Máxima?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_min\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"temp_max\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"Há informações de Humidade e Pressão Atmosférica?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"humidity\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"pressure\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"pm.test(\"O estado correto é São Paulo?\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Santo André\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"E o Céu? Está limpo?\", function (){\r",
+							"    pm.expect(pm.response.text()).to.include(\"céu limpo\");\r",
+							"    \r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Santo André&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Santo André"
+						},
+						{
+							"key": "appid",
+							"value": "ed5dd873dea3918abd2ad3caed066a1b"
+						},
+						{
+							"key": "lang",
+							"value": "pt_br"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "variable_key",
+			"value": ""
+		},
+		{
+			"key": "q",
+			"value": ""
+		}
+	]
+}

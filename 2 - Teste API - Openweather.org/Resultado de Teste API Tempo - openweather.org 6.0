@@ -1,0 +1,262 @@
+{
+	"id": "2a41ee80-7047-46fc-8ca6-e1cfeac62696",
+	"name": "Test API Tempo - 6.0",
+	"timestamp": "2022-07-14T18:28:58.547Z",
+	"collection_id": "20567286-ff128420-3ab8-4b13-89c5-997507861138",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 21,
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "202c7c8f-f93f-44ae-b845-34683c1056a4",
+			"name": "1 - Teste API - RJ",
+			"url": "https://api.openweathermap.org/data/2.5/weather?units=metric&q=Rio%20de%20Janeiro&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+			"time": 1292,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do Código de Retorno é 200?": true,
+				"Há informações de Temperatura?": true,
+				"Há informações de Temperatura Mínima e Máxima?": true,
+				"Há informações de Humidade e Pressão Atmosférica?": true,
+				"O estado correto é Rio de Janeiro?": true,
+				"E o Céu? Está limpo?": false
+			},
+			"testPassFailCounts": {
+				"Status do Código de Retorno é 200?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura Mínima e Máxima?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Humidade e Pressão Atmosférica?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O estado correto é Rio de Janeiro?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"E o Céu? Está limpo?": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1292
+			],
+			"allTests": [
+				{
+					"Status do Código de Retorno é 200?": true,
+					"Há informações de Temperatura?": true,
+					"Há informações de Temperatura Mínima e Máxima?": true,
+					"Há informações de Humidade e Pressão Atmosférica?": true,
+					"O estado correto é Rio de Janeiro?": true,
+					"E o Céu? Está limpo?": false
+				}
+			]
+		},
+		{
+			"id": "6d72e1e1-904c-4b13-b252-038e8093c74c",
+			"name": "2 - Teste API - SP",
+			"url": "https://api.openweathermap.org/data/2.5/weather?q=S%C3%A3o%20Paulo&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+			"time": 1276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do Código de Retorno é 200?": true,
+				"Há informações de Temperatura?": true,
+				"Há informações de Temperatura Mínima e Máxima?": true,
+				"Há informações de Humidade e Pressão Atmosférica?": true,
+				"O estado correto é São Paulo?": true,
+				"E o Céu? Está limpo?": true
+			},
+			"testPassFailCounts": {
+				"Status do Código de Retorno é 200?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura Mínima e Máxima?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Humidade e Pressão Atmosférica?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O estado correto é São Paulo?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"E o Céu? Está limpo?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1276
+			],
+			"allTests": [
+				{
+					"Status do Código de Retorno é 200?": true,
+					"Há informações de Temperatura?": true,
+					"Há informações de Temperatura Mínima e Máxima?": true,
+					"Há informações de Humidade e Pressão Atmosférica?": true,
+					"O estado correto é São Paulo?": true,
+					"E o Céu? Está limpo?": true
+				}
+			]
+		},
+		{
+			"id": "ae0c2685-6f93-4e32-831f-1c3e470e7f7c",
+			"name": "3 - Teste API - MG",
+			"url": "https://api.openweathermap.org/data/2.5/weather?q=Minas%20Gerais&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+			"time": 1223,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do Código de Retorno é 200?": true,
+				"Há informações de Temperatura?": true,
+				"Há informações de Temperatura Mínima e Máxima?": true,
+				"Há informações de Humidade e Pressão Atmosférica?": true,
+				"O estado correto é São Paulo?": true,
+				"E o Céu? Está limpo?": false
+			},
+			"testPassFailCounts": {
+				"Status do Código de Retorno é 200?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura Mínima e Máxima?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Humidade e Pressão Atmosférica?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O estado correto é São Paulo?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"E o Céu? Está limpo?": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1223
+			],
+			"allTests": [
+				{
+					"Status do Código de Retorno é 200?": true,
+					"Há informações de Temperatura?": true,
+					"Há informações de Temperatura Mínima e Máxima?": true,
+					"Há informações de Humidade e Pressão Atmosférica?": true,
+					"O estado correto é São Paulo?": true,
+					"E o Céu? Está limpo?": false
+				}
+			]
+		},
+		{
+			"id": "aeedba90-59dc-434e-aacc-b4c6629e8e61",
+			"name": "4 - Teste API - Santo Andre - SP",
+			"url": "https://api.openweathermap.org/data/2.5/weather?q=Santo%20Andr%C3%A9&appid=ed5dd873dea3918abd2ad3caed066a1b&lang=pt_br",
+			"time": 1160,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status do Código de Retorno é 200?": true,
+				"Há informações de Temperatura?": true,
+				"Há informações de Temperatura Mínima e Máxima?": true,
+				"Há informações de Humidade e Pressão Atmosférica?": true,
+				"O estado correto é São Paulo?": true,
+				"E o Céu? Está limpo?": false
+			},
+			"testPassFailCounts": {
+				"Status do Código de Retorno é 200?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Temperatura Mínima e Máxima?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Há informações de Humidade e Pressão Atmosférica?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O estado correto é São Paulo?": {
+					"pass": 1,
+					"fail": 0
+				},
+				"E o Céu? Está limpo?": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1160
+			],
+			"allTests": [
+				{
+					"Status do Código de Retorno é 200?": true,
+					"Há informações de Temperatura?": true,
+					"Há informações de Temperatura Mínima e Máxima?": true,
+					"Há informações de Humidade e Pressão Atmosférica?": true,
+					"O estado correto é São Paulo?": true,
+					"E o Céu? Está limpo?": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4951,
+	"collection": {
+		"requests": [
+			{
+				"id": "202c7c8f-f93f-44ae-b845-34683c1056a4",
+				"method": "GET"
+			},
+			{
+				"id": "6d72e1e1-904c-4b13-b252-038e8093c74c",
+				"method": "GET"
+			},
+			{
+				"id": "ae0c2685-6f93-4e32-831f-1c3e470e7f7c",
+				"method": "GET"
+			},
+			{
+				"id": "aeedba90-59dc-434e-aacc-b4c6629e8e61",
+				"method": "GET"
+			}
+		]
+	}
+}
