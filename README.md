@@ -22,6 +22,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
  - #### **1.1 - Equipamento**
 
     - Notebook Dell - Core i5 2021 - com **16**GB RAM e **250**GB de Armazenamento
+    - 
 
 
  - #### **1.2 - Software**
@@ -35,6 +36,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
     - Postman - https://www.postman.com/ - versão 9.21.0
 
     - Typora - https://typora.io/ - versão 1.3
+    - 
 
 
  - #### **1.3 - Sites de Apoio e Teste**
@@ -42,11 +44,13 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
      - Openweathermap - https://openweathermap.org/current/
 
      - GitHub - https://git-scm.com/
+     - 
 
 
  - #### **1.4 - Linguagem de Programação**
 
      - JavaScript - https://www.javascript.com/
+
 
 
  - #### **1.5 - Conexão**
@@ -55,9 +59,12 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
      - Via rede **Wifi** - caseira - Jul/22   
 
 
+
  - #### **1.6 - Trilha Sonora**
 
      - Via Spotify - [Jazz & Soul instrumental](https://open.spotify.com/playlist/1AmDyRcMV7ebvwzmVjFoaL?si=37e9fbe34ce04cd2)   
+
+
 
 - #### **1.7 - Combustível**
 
@@ -140,7 +147,6 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
 ​		**Via browser** - https://dl.pstmn.io/download/latest/win64/
 
 ​			A instrução é simples, clique no executável e siga as instruções.	  
-
 
 
 
