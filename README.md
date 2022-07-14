@@ -77,7 +77,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
     
     - Github Desafio ASAP - https://github.com/luizfernandogoulart/01-Desafio-QA-Asap-Mat-2102011875-Luiz-Goulart-.git
     
-    - Backup do Projeto - encurtador.com.br/ehoP9
+    - Backup do Projeto - https://encurtador.com.br/ehoP9
      
 
 
