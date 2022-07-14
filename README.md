@@ -12,7 +12,7 @@ Para entendimento inicial, o curso tem como objetivo capacitar colaboradores da 
 
 * Foram utilizadas as boas práticas aprendidas e com padrões simplórios de aprendizado; 
 * A Estrutura de pastas foi respeitada e o código foi versionado;  
-* Em virtude da baixa expertise, o código foi desenvolvido de forma simples e sem complexidade técnica).
+* Em virtude da baixa expertise, o código foi desenvolvido de forma simples e sem complexidade técnica.
 
 
 
